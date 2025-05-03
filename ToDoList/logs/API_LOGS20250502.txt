@@ -1,0 +1,21 @@
+2025-05-02 21:46:37.926 -03:00 [ERR] 02/05/2025 21:46:37 - System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.Skip[TSource](IQueryable`1 source, Int32 count)
+   at ToDoList.Services.TaskService.getTask(Int32 page, Int32 pageSize) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 21
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.Skip[TSource](IQueryable`1 source, Int32 count)
+   at ToDoList.Services.TaskService.getTask(Int32 page, Int32 pageSize) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 21
+2025-05-02 21:47:33.959 -03:00 [ERR] 02/05/2025 21:47:33 - System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.Skip[TSource](IQueryable`1 source, Int32 count)
+   at ToDoList.Services.TaskService.getTask(Int32 page, Int32 pageSize) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 21
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Linq.Queryable.Skip[TSource](IQueryable`1 source, Int32 count)
+   at ToDoList.Services.TaskService.getTask(Int32 page, Int32 pageSize) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 21
+2025-05-02 22:03:01.780 -03:00 [ERR] 02/05/2025 22:03:01 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at ToDoList.Services.TaskService.postTask(Task task) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 48
+   at ToDoList.Services.TaskService.postTask(Task task) in C:\Users\draka\source\repos\ToDoList\ToDoList\Services\TaskService.cs:line 48
