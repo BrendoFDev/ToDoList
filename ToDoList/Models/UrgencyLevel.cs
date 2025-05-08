@@ -1,10 +1,17 @@
 ﻿namespace ToDoList.Models
 {
-    public enum UrgencyEnum
-    {
+     /*
         UrgentAndImportant,
         UrgentButNotImportant,
         NotImportantAndUrgent,
         NotImportantAndNotUrgent
+    */
+
+    public class UrgencyLevel
+    {
+
+        public int Id { get; set; }
+        public string description { get; set; }
+
     }
 }

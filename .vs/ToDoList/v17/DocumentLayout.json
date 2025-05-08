@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\draka\\source\\repos\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\models\\urgencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\models\\urgencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\repository\\connectionfabric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\repository\\connectionfabric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\repository\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\repository\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\mappings\\urgencylevelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\mappings\\urgencylevelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\mappings\\taskmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\mappings\\taskmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\mappings\\taskstatusmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\mappings\\taskstatusmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|c:\\users\\draka\\source\\repos\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C33046-11A1-4223-A924-3EA8EA50504E}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,50 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConnectionFabric.cs",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Repository\\ConnectionFabric.cs",
-              "RelativeDocumentMoniker": "ToDoList\\Repository\\ConnectionFabric.cs",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Repository\\ConnectionFabric.cs",
-              "RelativeToolTip": "ToDoList\\Repository\\ConnectionFabric.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "UrgencyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\UrgencyLevel.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Models\\UrgencyLevel.cs",
+              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\UrgencyLevel.cs",
+              "RelativeToolTip": "ToDoList\\Models\\UrgencyLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T01:16:24.554Z",
+              "WhenOpened": "2025-05-08T01:56:38.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\appsettings.json",
-              "RelativeDocumentMoniker": "ToDoList\\appsettings.json",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\appsettings.json",
-              "RelativeToolTip": "ToDoList\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T01:15:35.021Z",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\Task.cs",
+              "RelativeToolTip": "ToDoList\\Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:32:13.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ToDoList\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\appsettings.Development.json",
-              "RelativeToolTip": "ToDoList\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T01:15:09.763Z",
+              "Title": "TaskStatusMap.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskStatusMap.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Mappings\\TaskStatusMap.cs",
+              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskStatusMap.cs",
+              "RelativeToolTip": "ToDoList\\Mappings\\TaskStatusMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:14:22.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "UrgencyLevelMap.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\UrgencyLevelMap.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Mappings\\UrgencyLevelMap.cs",
+              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\UrgencyLevelMap.cs",
+              "RelativeToolTip": "ToDoList\\Mappings\\UrgencyLevelMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:14:02.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskMap.cs",
+              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskMap.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Mappings\\TaskMap.cs",
+              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskMap.cs",
+              "RelativeToolTip": "ToDoList\\Mappings\\TaskMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:13:42.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
@@ -102,65 +124,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Repository\\Connection.cs",
-              "RelativeDocumentMoniker": "ToDoList\\Repository\\Connection.cs",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Repository\\Connection.cs",
-              "RelativeToolTip": "ToDoList\\Repository\\Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T01:05:45.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TaskMap.cs",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskMap.cs",
-              "RelativeDocumentMoniker": "ToDoList\\Mappings\\TaskMap.cs",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Mappings\\TaskMap.cs",
-              "RelativeToolTip": "ToDoList\\Mappings\\TaskMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:53:13.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "ToDoList\\Models\\Task.cs",
-              "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Models\\Task.cs",
-              "RelativeToolTip": "ToDoList\\Models\\Task.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:53:08.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TaskService.cs",
               "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Services\\TaskService.cs",
               "RelativeDocumentMoniker": "ToDoList\\Services\\TaskService.cs",
               "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Services\\TaskService.cs",
               "RelativeToolTip": "ToDoList\\Services\\TaskService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAIAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwC0AAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T13:45:07.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "ToDoList\\Controllers\\TaskController.cs",
               "ToolTip": "C:\\Users\\draka\\source\\repos\\ToDoList\\ToDoList\\Controllers\\TaskController.cs",
               "RelativeToolTip": "ToDoList\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAUAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAywD8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T12:44:49.757Z",
               "EditorCaption": ""
