@@ -39,7 +39,7 @@ namespace ToDoList.Services
         {
             try
             {
-                var query = context.tasks.Where(x => x.Description.ToLower().Contains(Description.ToLower()));
+                var query = context.tasks.Where(x => x.Description.ToLower().Contains(Description.ToLower())).Include(x=>x.TaskStatus).Include(x=>x.UrgencyLevel);
 
                 List<Models.Task> tasks = await query.ToListAsync();
 

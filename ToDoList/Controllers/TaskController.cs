@@ -15,17 +15,17 @@ namespace ToDoList.Controllers
             this.taskService = new TaskService(new Connection());
         }
 
-        [HttpGet("{page}/{pageSize}",Name = "GetTask")]
+        [HttpGet("page={page}/pageSize={pageSize}", Name = "GetTask")]
         public async Task<IActionResult>  getTask(int page = 1, int pageSize=10)
         {
             try
             {
-                string? tasks = await taskService.getTask(page, pageSize);
+                string? taskJson = await taskService.getTask(page, pageSize);
 
-                if (string.IsNullOrEmpty(tasks)) 
+                if (string.IsNullOrEmpty(taskJson)) 
                     return NoContent();
 
-                return Ok(tasks);
+                return Ok(taskJson);
             }
             catch(Exception ex)
             {
@@ -78,7 +78,7 @@ namespace ToDoList.Controllers
                     return StatusCode(204);
 
                 string taskJson = await taskService.postTask(task);
-                    return Ok(taskJson);
+                return Ok(taskJson);
             }
             catch(Exception ex)
             {
@@ -104,8 +104,6 @@ namespace ToDoList.Controllers
                 return handleException(ex);
             }
         }
-
-       
 
         private ObjectResult handleException(Exception ex)
         {

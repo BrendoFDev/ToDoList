@@ -6,10 +6,14 @@ namespace ToDoList.Repository
 {
     public class Connection : DbContext
     {
+
+        public DbSet<Models.Task> tasks { get; set; }
+        public DbSet<Models.TaskStatus> taskStatus { get; set; }
+        public DbSet<Models.UrgencyLevel> urgencyLevels { get; set; }
+
         public Connection() { }
         public Connection(DbContextOptions<Connection> options) : base(options) { }
 
-        public DbSet<Models.Task> tasks { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -22,6 +26,7 @@ namespace ToDoList.Repository
                 optionsBuilder.UseNpgsql(connectionString);
             }
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(Connection).Assembly);
