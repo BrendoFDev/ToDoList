@@ -7,24 +7,24 @@ namespace ToDoList.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class TaskStatusController : ControllerBase
+    public class UrgencyLevelController : ControllerBase
     {
-        private TaskStatusService taskstatusService;
-        public TaskStatusController()
+        private UrgencyLevelService urgencyLevelService;
+        public UrgencyLevelController()
         {
-            this.taskstatusService = new TaskStatusService(new Connection());
+            this.urgencyLevelService = new UrgencyLevelService(new Connection());
         }
 
-        [HttpGet(Name = "getTaskStatus")]
+        [HttpGet(Name = "getUrgencyLevel")]
         public async Task<IActionResult> getTaskStatus()
         {
             try
             {
-                string? taskStatusJson = await taskstatusService.getTaskStatus();
-                if (string.IsNullOrEmpty(taskStatusJson))
+                string? urgencyLevelJson = await urgencyLevelService.getUrgencyLevel();
+                if (string.IsNullOrEmpty(urgencyLevelJson))
                     return StatusCode(204);
                 else
-                    return Ok(taskStatusJson);
+                    return Ok(urgencyLevelJson);
             }
             catch (Exception ex)
             {
@@ -32,12 +32,12 @@ namespace ToDoList.Controllers
             }
         }
 
-        [HttpDelete("{id}", Name = "deleteTaskStatus")]
+        [HttpDelete("{id}", Name = "deleteUrgencyLevel")]
         public IActionResult deleteTaskStatus(int id)
         {
             try
             {
-                bool deleted  =  taskstatusService.deleteTaskStatus(id);
+                bool deleted  =  urgencyLevelService.deleteUrgencyLevel(id);
 
                 if (!deleted)
                     Conflict("TaskStatus Do Not Exists!");
@@ -50,16 +50,16 @@ namespace ToDoList.Controllers
             }
         }
 
-        [HttpPost(Name = "postTaskStatus")]
-        public async Task<IActionResult> postTaskStatus(Models.TaskStatus taskstatus)
+        [HttpPost(Name = "postUrgencyLevel")]
+        public async Task<IActionResult> postTaskStatus(Models.UrgencyLevel urgencyLevel)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return StatusCode(204);
 
-                string? taskStatusJson = await taskstatusService.postTaskStatus(taskstatus);
-                return Ok(taskStatusJson);
+                string? urgencyLevelJson = await urgencyLevelService.postUrgencyLevel(urgencyLevel);
+                return Ok(urgencyLevelJson);
             }
             catch(Exception ex)
             {

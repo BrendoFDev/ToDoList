@@ -9,7 +9,7 @@ namespace ToDoList.Repository
 
         public DbSet<Models.Task> tasks { get; set; }
         public DbSet<Models.TaskStatus> taskStatus { get; set; }
-        public DbSet<Models.UrgencyLevel> urgencyLevels { get; set; }
+        public DbSet<Models.UrgencyLevel> urgencyLevel { get; set; }
 
         public Connection() { }
         public Connection(DbContextOptions<Connection> options) : base(options) { }

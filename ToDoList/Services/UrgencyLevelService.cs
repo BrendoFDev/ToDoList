@@ -5,21 +5,21 @@ using ToDoList.Repository;
 
 namespace ToDoList.Services
 {
-    public class TaskStatusService : ITaskStatusService
+    public class UrgencyLevelService : IUrgencyLevelService
     {
         private Connection context;
-        public TaskStatusService(Connection connection)
+        public UrgencyLevelService(Connection connection)
         {
             this.context = connection;
         }
 
-        public async Task<string?> getTaskStatus()
+        public async Task<string?> getUrgencyLevel()
         {
             try
             {
-                List<Models.TaskStatus> taskStatuses = await context.taskStatus.ToListAsync();
+                List<Models.UrgencyLevel> urgencyLevel = await context.urgencyLevel.ToListAsync();
 
-                return taskStatuses != null ? JsonConvert.SerializeObject(taskStatuses) : string.Empty;
+                return urgencyLevel != null ? JsonConvert.SerializeObject(urgencyLevel) : string.Empty;
             }
             catch (Exception ex)
             {
@@ -28,11 +28,11 @@ namespace ToDoList.Services
             }
         }
 
-        public bool deleteTaskStatus(int id)
+        public bool deleteUrgencyLevel(int id)
         {
             try
             {
-                int affectedRows = context.taskStatus.Where(x => x.Id == id).ExecuteDelete();
+                int affectedRows = context.urgencyLevel.Where(x => x.Id == id).ExecuteDelete();
 
                 return affectedRows == 0 ? false : true;
             }
@@ -43,13 +43,13 @@ namespace ToDoList.Services
             }
         }
 
-        public async Task<string?> postTaskStatus(Models.TaskStatus taskStatus)
+        public async Task<string?> postUrgencyLevel(Models.UrgencyLevel urgencyLevel)
         {
             try
             {
-                context.taskStatus.Add(taskStatus);
+                context.urgencyLevel.Add(urgencyLevel);
                 await context.SaveChangesAsync();
-                return JsonConvert.SerializeObject(taskStatus);
+                return JsonConvert.SerializeObject(urgencyLevel);
             }
             catch(Exception ex)
             {
@@ -59,10 +59,10 @@ namespace ToDoList.Services
         }
     }
 
-    interface ITaskStatusService
+    interface IUrgencyLevelService
     {
-        Task<string?> getTaskStatus();
-        bool deleteTaskStatus(int id);
-        Task<string?> postTaskStatus(Models.TaskStatus taskStatus);
+        Task<string?> getUrgencyLevel();
+        bool deleteUrgencyLevel(int id);
+        Task<string?> postUrgencyLevel(Models.UrgencyLevel urgencyLevel);
     }
 }
