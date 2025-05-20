@@ -1,4 +1,6 @@
-﻿namespace ToDoList.Models
+﻿using Swashbuckle.AspNetCore.Annotations;
+
+namespace ToDoList.Models
 {
     public class Task
     {
@@ -11,5 +13,16 @@
         public UrgencyLevel UrgencyLevel { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime ExpirationDate { get; set; }
+
+        public Task() { }
+        public Task(DTO.TaskDTO taskDTO)
+        {
+            Name = taskDTO.Name;
+            Description = taskDTO.Description;
+            TaskStatusId = taskDTO.TaskStatusId;
+            UrgencyLevelId = taskDTO.UrgencyLevelId;
+            CreationDate = taskDTO.CreationDate;
+            ExpirationDate = taskDTO.ExpirationDate;
+        }
     }
 }

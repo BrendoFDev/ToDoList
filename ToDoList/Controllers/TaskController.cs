@@ -70,14 +70,18 @@ namespace ToDoList.Controllers
         }
 
         [HttpPost(Name = "PostTask")]
-        public async Task<IActionResult> postTask([FromBody] Models.Task task)
+        public async Task<IActionResult> postTask([FromBody] DTO.TaskDTO task)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return StatusCode(204);
 
-                string taskJson = await taskService.postTask(task);
+                string? taskJson = await taskService.postTask(task);
+
+                if (string.IsNullOrEmpty(taskJson))
+                    return StatusCode(401, "Json in wrong format");
+
                 return Ok(taskJson);
             }
             catch(Exception ex)

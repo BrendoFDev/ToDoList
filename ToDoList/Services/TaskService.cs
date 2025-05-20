@@ -68,10 +68,21 @@ namespace ToDoList.Services
             }
         }
 
-        public async Task<string> postTask(Models.Task task)
+        public async Task<string?> postTask(DTO.TaskDTO taskDTO)
         {
             try
             {
+                Models.Task task = new Models.Task(taskDTO);
+
+                Models.TaskStatus? taskStatus = await context.taskStatus.SingleOrDefaultAsync(x => x.Id == task.TaskStatusId); 
+                Models.UrgencyLevel? urgencyLevel = await context.urgencyLevel.SingleOrDefaultAsync(x => x.Id == task.UrgencyLevelId);
+
+                if(taskStatus is null || urgencyLevel is null)
+                    return null;
+                
+                task.TaskStatus = taskStatus;
+                task.UrgencyLevel = urgencyLevel;
+                
                 context.tasks.Add(task);
                 await context.SaveChangesAsync();
                 return JsonConvert.SerializeObject(task);
@@ -105,7 +116,7 @@ namespace ToDoList.Services
         Task<string?> getTask(int page = 1, int pageSize = 10);
         Task<string> getTaskByDescription(string Description);
         Task<string?> getTaskById(int id);
-        Task<string> postTask(Models.Task task);
+        Task<string?> postTask(DTO.TaskDTO taskDTO);
         bool deleteTask(int id);
     }
 }
